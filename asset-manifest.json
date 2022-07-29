@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mig-homepage/static/css/main.cdef05b3.css",
+    "main.js": "/mig-homepage/static/js/main.af8c94fa.js",
+    "static/js/787.6e8e140c.chunk.js": "/mig-homepage/static/js/787.6e8e140c.chunk.js",
+    "static/media/profile-background.jpg": "/mig-homepage/static/media/profile-background.00ed60051b0935b14363.jpg",
+    "static/media/dummy-profile-pic.png": "/mig-homepage/static/media/dummy-profile-pic.e8014c14259e3944c886.png",
+    "index.html": "/mig-homepage/index.html",
+    "main.cdef05b3.css.map": "/mig-homepage/static/css/main.cdef05b3.css.map",
+    "main.af8c94fa.js.map": "/mig-homepage/static/js/main.af8c94fa.js.map",
+    "787.6e8e140c.chunk.js.map": "/mig-homepage/static/js/787.6e8e140c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdef05b3.css",
+    "static/js/main.af8c94fa.js"
+  ]
+}
