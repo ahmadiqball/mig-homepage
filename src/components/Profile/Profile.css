@@ -1,0 +1,60 @@
+.profile {
+    width: 18rem;
+    padding-bottom: 2rem;
+}
+
+.profile-picture {
+    background-image: url('../images/profile-background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 8rem;
+    margin-bottom: 6rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile img {
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    width: 8rem;
+    position: relative;
+    top: 4rem;
+}
+
+.profile-head_name h2 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #727272;
+    margin: 10px 0;
+}
+
+.profile-head_name h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #9c9c9c;
+    margin: 5px 0;
+}
+
+.profile-head_edit {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #357639;
+    margin: 25px 0;
+    opacity: 0.7;
+    background-color: white;
+    border: none;
+}
+
+.profil-head_edit_icon {
+    margin-right: 0.75rem;
+    height: 0.8rem;
+}
+
+.profile-head_edit:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1280px) {
+    .profile {
+        width: 90%;
+    }
+}

@@ -1,0 +1,41 @@
+.profile-data {
+    text-align: left;
+    margin: 1.5rem;
+}
+
+.profile-data h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #9c9c9c;
+    margin: 5px 0;
+}
+
+.profile-data h3 {
+    font-size: 0.9rem;
+    color: #646464;
+    font-weight: 600;
+}
+
+.profile-data_status {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-data_fa {
+    margin-right: 1rem;
+}
+
+.profile-data_link h3 {
+    color: #357639;
+    text-decoration: underline;
+}
+
+.profile-data_phone h3 {
+    color: #357639;
+}
+
+.profile-data_status.active h3 {
+    color: #357639;
+}

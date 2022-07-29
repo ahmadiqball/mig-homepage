@@ -1,0 +1,39 @@
+.activity {
+  width: 23rem;
+  text-align: left;
+  padding: 20px;
+}
+
+.activity h2 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #727272;
+}
+
+.activity h3 {
+  font-size: 0.9rem;
+  color: #646464;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.activity h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #9c9c9c;
+  margin: 10px 0;
+}
+
+.act-list {
+  margin: 3rem 0;
+}
+
+.act-item {
+  margin: 2rem 0;
+}
+
+@media (max-width: 1008px) {
+  .activity {
+    width: 90%;
+  }
+}

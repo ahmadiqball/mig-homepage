@@ -1,0 +1,27 @@
+.navbar {
+    height: 100%;
+    width: 5rem;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-logo {
+    height: 4rem;
+}
+
+.navbar-fa {
+    height: 1rem;
+    color: rgb(180, 180, 180);
+    margin: 1rem 0;
+}
+
+.navbar-list {
+    margin: 1rem 0;
+}
+
+.navbar-item:hover {
+    background-color: #F4FAF6;
+    border-left: 0.25rem solid green;
+}

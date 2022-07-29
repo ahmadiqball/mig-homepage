@@ -1,0 +1,62 @@
+.bank-list {
+  width: 100%;
+}
+
+.bank-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.bank-item h3 {
+  font-size: 0.9rem;
+  color: #727272;
+  font-weight: 800;
+}
+
+.bank-item h4 {
+  font-size: 0.8rem;
+  color: #9c9c9c;
+  margin: 2px 0;
+}
+
+.bank-item_visa {
+  width: 7rem;
+  height: 6rem;
+  background-image: linear-gradient(120deg, #f5db00, #80a20b);
+  border-radius: 12px;
+}
+
+.bank-item_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.bank-item_fa {
+  opacity: 0.8;
+  margin: 0 7px;
+  height: 0.8rem;
+}
+
+.bank-item_fa:hover {
+  opacity: 1;
+}
+
+.bank-item_edit {
+  color: #357639;
+}
+
+.bank-item_del {
+    color: #d80000;
+}
+
+.bank-item_info {
+    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+}

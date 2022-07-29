@@ -1,0 +1,35 @@
+.bank {
+    width: 23rem;
+    padding: 20px;
+}
+
+.bank-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bank-top h2 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #727272; 
+}
+
+.bank-top button {
+    color: white;
+    background-color: #357639;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    opacity: 0.8;
+}
+
+.bank-top button:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1008px) {
+    .bank {
+        width: 90%;
+    }
+}

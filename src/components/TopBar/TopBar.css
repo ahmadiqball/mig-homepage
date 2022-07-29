@@ -1,0 +1,55 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+
+.topbar-path {
+  display: flex;
+  align-items: center;
+  color: #cccccc;
+}
+
+.topbar-path h3 {
+  margin: 1rem 7px;
+}
+
+.path-fa {
+  margin: 1rem 7px;
+  width: 0.5rem;
+}
+
+.path-active {
+  font-weight: 800;
+  color: #727272;
+}
+
+.topbar-profile {
+  display: flex;
+  align-items: center;
+  margin: 0 1.5rem;
+}
+
+.topbar-profile img {
+  border-radius: 50%;
+  width: 1.25rem;
+  margin: 0.7rem;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  color: #727272;
+}
+
+.topbar-fa {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 1008px) {
+  .topbar {
+    width: 90%;
+  }
+}

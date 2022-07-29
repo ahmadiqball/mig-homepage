@@ -1,0 +1,93 @@
+.lokasi {
+    width: 50rem;
+    padding: 20px;
+}
+
+.lokasi-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lokasi-head h2 {
+    font-size: 1.1rem;
+    color: #727272;
+    font-weight: 800;
+}
+
+.lokasi-head button {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #50B057;
+    background-color: white;
+    border: none;
+    opacity: 0.8;
+}
+
+.lokasi-head button:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.lokasi-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.lokasi-card {
+    flex-grow: 1;
+    flex-basis: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 8px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.lokasi-card h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.lokasi-card h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.lokasi-card_1 {
+    background-color: #419349;
+}
+
+.lokasi-card_2 {
+    background-color: #50B057;
+}
+
+.lokasi-card_3 {
+    background-color: #6DBD74;
+}
+
+.lokasi-fa {
+    height: 2.25rem;
+}
+
+@media (max-width: 1008px) {
+    .lokasi {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .lokasi-cards {
+        flex-direction: column;
+    }
+    
+    .lokasi-card {
+        margin: 1rem 0;
+    }
+}
