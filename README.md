@@ -13,3 +13,4 @@ git clone git@github:ahmadiqball/mig-homepage
 npm install
 npm start
 ```
+
