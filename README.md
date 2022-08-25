@@ -4,7 +4,7 @@ Create a company homepage using react.js
 
 ## Github Pages
 
-[htpps://ahmadiqbal.github.io/mig-homepage](htpps://ahmadiqbal.github.io/mig-homepage)
+[ahmadiqbal.github.io/mig-homepage](htpps://ahmadiqbal.github.io/mig-homepage/)
 
 
 ## Use Repo
